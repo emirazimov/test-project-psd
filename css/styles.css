@@ -1,0 +1,17 @@
+ .main-container{
+ 	height:810px;
+ 	width:1350px;
+ 	margin:100px auto;
+ 	background-color:white;
+ 	background:url(images/main-img.png) left no-repeat ;
+ 	background-size: 520px;
+ 	border-radius: 20px;
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.3)
+ }
+.main-subscriptions label{
+	display: block;
+	margin-top: 70px;
+}
+.main-inputs input{
+	margin:30px 20px;
+}

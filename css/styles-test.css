@@ -1,0 +1,188 @@
+.main-container {
+  display: block;
+  height: 810px;
+  width: 1350px;
+  margin: 100px auto;
+  background: white;
+  background: url(../images/main-img.png) left no-repeat;
+  background-size: 520px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+html {
+  font-size: 0.9rem;
+}
+.main-subscriptions .Subscripton {
+  display: inline-block;
+  margin-top: 80px;
+  position: relative;
+}
+.main-subscriptions .Bronze {
+  color: #e9a75a;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -35px;
+}
+.main-subscriptions .Silver {
+  color: #8e8176;
+  position: absolute;
+  margin-left: 257px;
+  margin-top: -35px;
+}
+.main-subscriptions .Gold {
+  color: #e2d639;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -35px;
+}
+.main-subscriptions .first-subscription {
+  margin-top: 120px;
+}
+.main-subscriptions .subscriptions2 {
+  margin-top: 35px;
+}
+.main-subscriptions label {
+  display: block;
+}
+.subscriptions3 {
+  margin-top: 26px;
+}
+.subscriptions4 {
+  margin-top: 44px;
+}
+.subscriptions5 {
+  margin-top: 44px;
+}
+.subscriptions6 {
+  margin-top: 48px;
+}
+.main-inputs input {
+  display: block;
+  margin-top: 5px;
+}
+.main-inputs .female {
+  height: 38px;
+  margin-left: 30px ;
+}
+.main-inputs .male {
+  height: 32px;
+}
+.main-inputs input::-webkit-input-placeholder {
+  padding-left: 7px;
+  color: #c7d0db;
+}
+.main-inputs input:-ms-input-placeholder {
+  padding-left: 7px;
+  color: #c7d0db;
+}
+.main-inputs input::-ms-input-placeholder {
+  padding-left: 7px;
+  color: #c7d0db;
+}
+.main-inputs input::placeholder {
+  padding-left: 7px;
+  color: #c7d0db;
+}
+.main-inputs input {
+  border: solid;
+  border-width: 2px;
+  border-color: #c7d0db;
+  border-radius: 5px;
+}
+.main-inputs .for-radio span {
+  margin-left: 8px;
+}
+.main-inputs .for-radio img {
+  width: 22px;
+  height: 22px;
+}
+.main-inputs .for-radio2 span {
+  margin-left: 10px;
+}
+.main-inputs .for-radio2 img {
+  width: 20px;
+  height: 27px;
+}
+.main-inputs .radios {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.main-inputs .radios + label {
+  cursor: pointer;
+}
+.main-inputs .radios:checked + label > img {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 7px ;
+}
+.main-inputs .radios:hover + label > img {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 7px ;
+}
+.main-inputs .radios2 {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 8px ;
+}
+.main-inputs .radios2 + label {
+  cursor: pointer;
+}
+.main-inputs .radios2:checked + label > img {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 7px ;
+}
+.main-inputs .radios2:hover + label > img {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 7px ;
+}
+.main-inputs .inputs {
+  width: 300px;
+  height: 40px;
+}
+.main-inputs .first-input {
+  margin-top: 110px;
+}
+.main-buttons .cancel {
+  outline: none;
+  margin-top: 190px;
+  height: 45px;
+  width: 140px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.main-buttons .save {
+  outline: none;
+  margin-top: 190px;
+  margin-left: 5px;
+  background-color: #a2ca7d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 45px;
+  width: 140px;
+}
+.main-buttons .save:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  height: 46px;
+  width: 141px;
+}
+.main-buttons .cancel:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  height: 46px;
+  width: 141px;
+}
